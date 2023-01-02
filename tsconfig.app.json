@@ -5,6 +5,10 @@
     "outDir": "./out-tsc/app",
     "types": []
   },
+  "paths": {
+    "@lstypes/*": ["app/types/*"],
+    "@envs/*": ["app/environment/*"]
+  },
   "files": [
     "src/main.ts"
   ],
